@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="bg-primary text-center p-5 text-white">
+        <h1 class="display-4">Welcome to my Portfolio !</h1>
+        <p class="fs-3">I Showcase my Skills here.</p>
+      </section>
+
+      <section class="mt-5">
+        <h1 class="text-center mb-5">About Me</h1>
+        <div class="row px-5">
+            <img class="col-12 col-md-6 p-6" style="height:400px; margin-top:8px; margin-bottom:20px;" src="https://avatars.githubusercontent.com/u/144313552?v=4">
+            <p class="col-12 col-md-6 text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, cupiditate praesentium corrupti sint adipisci aut esse provident ab dolorum, repellat aspernatur consequuntur sunt tempore nisi necessitatibus quo quidem, aliquid quisquam asperiores quos veniam! Similique laborum, eos enim cum ad repellendus iure? Quisquam facere itaque iure rem, libero aperiam deserunt saepe!Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque mollitia minima tenetur. Totam veritatis voluptas sed officiis ex quam, maiores non animi minus, autem blanditiis dolores eum nihil repellat dolor vel quidem? Ex, placeat, distinctio sit, unde culpa eligendi laborum atque est dolor nostrum quod ut necessitatibus deserunt temporibus.</p>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-8 col-md-3 card mt-3 mx-auto m-md-5 p-0" style="width:17rem;">
+            <img src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Project 1" class="card-img-top">
+            <div class="card-body">
+                <h1 class="card-title">Project-1</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <button class=" btn btn-primary">Learn More</button>
+            </div>
+        </div>
+
+        <div class="col-8 col-md-3 card mt-3 mx-auto m-md-5 p-0" style="width:17rem;">
+            <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="Project 2" class="card-img-top">
+            <div class="card-body">
+                <h1 class="card-title">Project-2</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <button class="btn btn-primary">Learn More</button>
+            </div>
+        </div>
+
+        <div class="col-8 col-md-3 card mt-3 mx-auto m-md-5 p-0" style="width:17rem;">
+            <img src="https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Project 3" class="card-img-top">
+            <div class="card-body">
+                <h1 class="card-title">Project-3</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <button class="btn btn-primary">Learn More</button>
+            </div>
+        </div>
+      </section>
+
+      <section class="d-flex justify-content-center row mb-6">
+        <h1 class="mb-5 text-center mt-5">Contact</h1>
+        <form class="col-8 col-md-5">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email">
+            <label for="msg" class="form-label">Message</label>
+            <textarea class="form-control" id="msg"></textarea>
+            <button class="btn btn-primary mt-3 w-100">Submit</button>
+        </form>
+      </section>
+
+      <div class="text-center bg-dark text-white pt-2 pb-4 mt-4">© 2023 My Portfolio. All rights reserved.</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
